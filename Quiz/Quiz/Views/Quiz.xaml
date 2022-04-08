@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Quiz"
+             x:Class="Quiz.Quiz">
+
+    <StackLayout BackgroundColor="#282828">
+        <Frame BackgroundColor="#121212" Padding="24" CornerRadius="0">
+            <Label x:Name="Heading" Text="" TextColor="White" HorizontalTextAlignment="Center" FontSize="36"/>
+        </Frame>
+        <Button x:Name="Antwort1Btn" Text="Antwort anzeigen" Clicked="Antwort1Btn_Clicked"/>
+        <Button x:Name="Antwort2Btn" Text="Antwort anzeigen" Clicked="Antwort2Btn_Clicked"/>
+        <Button x:Name="Antwort3Btn" Text="Antwort anzeigen" Clicked="Antwort3Btn_Clicked"/>
+        <Button x:Name="Antwort4Btn" Text="Antwort anzeigen" Clicked="Antwort4Btn_Clicked"/>
+        <Button x:Name="SendBtn" Text="Nächste Frage" Clicked="SendBtn_Clicked" Opacity="0" IsEnabled="False"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Quiz"
+             x:Class="Quiz.MainPage">
+
+    <StackLayout BackgroundColor="#282828">
+        <Frame BackgroundColor="#121212" Padding="24" CornerRadius="0">
+            <Label Text="Quiz" TextColor="White" HorizontalTextAlignment="Center" FontSize="36"/>
+        </Frame>
+        <Label Text="Hast du Lust auf ein super tolles Quiz? Dann drücke auf Start, um zu starten:" TextColor="White" FontSize="Medium" Padding="30,10,30,10" HorizontalTextAlignment="Center"/>
+        <Button Text="Start" Clicked="BTNStart_Clicked"></Button>
+    </StackLayout>
+</ContentPage>
